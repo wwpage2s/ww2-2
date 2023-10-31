@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="path1.png">
+        <a href="index.html"><img class="logo" src="jf_logo.png"></a>
+        <div class="navigation">
+            <a href="sluzby.html">SLUŽBY</a>
+            <a href="#">OPRÁVNENIA</a>
+            <a href="#">KLIENTSKA ZÓNA</a>
+            <a href="#">KONTAKT</a>
+            <a href="#">KURZY A ŠKOLENIA</a>
+            <a href="#">TLAČIVÁ</a>
+            <a href="#">E-LEARNING</a>
+        </div>
+    </nav>
+
+    <div id="main">
+        <div class=" service">
+        <div class="slider-container">
+            <div class="slider">
+                <img src="img2.jpg"  class="slider-image">
+                <img src="img6.jpg" class="slider-image">
+                <img src="img1.png" class="slider-image">
+                <img src="img3.jpg" class="slider-image">
+                <img src="img5.jpg" class="slider-image">
+                <img src="img4.jpg" class="slider-image">
+
+                <button class="btn prev" onclick="changeSlide(-1)"><</button>
+                <button class="btn next" onclick="changeSlide(1)">></button>
+            </div>
+            </div>
+            <div id="text-container">
+                <div id="image-text">
+                    <h1 id="image-heading"></h1>
+                    <p id="image-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
